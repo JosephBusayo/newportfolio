@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body {
+  font-family: "Jetbrains mono";
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --radius: 0.5rem;
+  }
+  body{
+    background-color: #1c1c22;
+    color: white;
+    line-height: 2;
+  }
+}
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(-55px);
+  }
+  50% {
+    transform: translateY(30px) translateX(10px);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-floating {
+  animation: floating 15s linear infinite;
 }
