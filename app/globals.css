@@ -16,6 +16,15 @@ body {
     color: white;
     line-height: 2;
   }
+  .h1{
+    @apply text-[48px] xl:text-[70px] leading-[1.1] font-semibold
+  }
+  .h2{
+    @apply text-[36px] xl:text-[40px] leading-[1.1] font-semibold
+  }
+  .h3{
+    @apply text-[20px] xl:text-[20px] leading-[1.1] font-semibold
+  }
 }
 @keyframes floating {
   0%, 100% {
