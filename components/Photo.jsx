@@ -20,20 +20,20 @@ function Photo() {
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" }
           }}
         >
-          <div className="w-[280px] h-[280px] xl:w-[410px] xl:h-[410px] mix-blend-lighten absolute">
+          <div className="w-[280px] h-[280px] xl:w-[410px] xl:h-[400px] mix-blend-lighten absolute">
             <Image
               src="/jj2.png"
               priority
               quality={100}
               fill
               alt="profile-pic"
-              className="object-contain rounded-full"
+              className="object-contain"
             />
           </div>
         </motion.div>
 
         <motion.svg
-          className="w-[300px] xl:w-[470px] h-[300px] xl:h-[470px]"
+          className="w-[300px] xl:w-[470px] h-[300px] xl:h-[420px]"
           fill="transparent"
           viewBox="0 0 506 506"
           xmlns="http://www.w3.org/2000/svg"

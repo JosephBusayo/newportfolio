@@ -25,6 +25,12 @@ body {
   .h3{
     @apply text-[20px] xl:text-[20px] leading-[1.1] font-semibold
   }
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #00ff99;
+  }
 }
 @keyframes floating {
   0%, 100% {
