@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24 gap-6">
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Web Developer</span> {/* Spider and web */}
-            <h1 className="h2 mb-6">Hello I'm <br /> <span className="h2 md:text-[60px] text-accent">Joseph Busayo Jayeoba</span></h1>
+            <h1 className="h2 mb-6"><span className="h2 md:text-[60px] text-accent">Joseph Busayo Jayeoba</span></h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               I excel at crafting elegant digital experiences and I'm proficient at various tool
             </p>
